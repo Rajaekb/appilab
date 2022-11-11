@@ -16,17 +16,19 @@ import Script from 'next/script'
 
 export default function Home() {
   return (
-      <>
+      <>  
+
         <Head>
           <title> AppiLab | Developpement Web & Mobile</title>
           <meta name='description' content='Appilab Application ' />
-          <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
-          <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
+
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"></link>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"></link>
           <link rel='icon' href='/favicon.ico'/>
         </Head>
+        <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+          <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
         <div className='flex '>
         <div className=" h-screen sticky top-0 rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-lime-400">
         <div className='h-screen -mb-2 rounded-lg bg-black text-purple-500 z-9999'>
