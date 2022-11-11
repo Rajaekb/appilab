@@ -87,7 +87,7 @@ function Sidebar() {
                         <div className='hidden sm:flex py-5 px-5'>
                             
                             <Link to={menu.link} smooth={true} offset={-100} duration={500} >
-                            <a className="flex relative gap-2 items-center w-full">
+                            <div className="flex relative gap-2 items-center w-full">
                                
                                 <div className={glowingClasses}></div>
                                 <div className=' relative text-2xl  hover:rotate-180 duration-300'>
@@ -100,7 +100,7 @@ function Sidebar() {
                                         {menu.label}
                                     </span>
                                 )}
-                            </a>
+                            </div>
                         </Link>
                       
                         </div>
@@ -147,7 +147,7 @@ function Sidebar() {
             <Link to={menu.link} smooth={true} offset={-100} duration={500} >
 
             <li key={menu.label} className='text-xl my-7'>
-              <a href={menu.link} className='text-bold hover:text-gray-400 duration-500'>{menu.label}</a>
+              <div className='text-bold hover:text-gray-400 duration-500'>{menu.label}</div>
             </li>
             </Link>
           ))

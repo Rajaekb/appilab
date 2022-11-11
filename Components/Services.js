@@ -12,10 +12,8 @@ const Services = () => {
     <br/>
     <h2 className='text-3xl tracking-[.10em]'>Creation des applications mobile personalisés </h2>
     <br/>
-    <p className='tracking-[.10em] '>Notre société de développement d'applications mobiles est là pour vous aider à construire, concevoir et développer votre application mobile. Nous réunissons tous les outils et toutes les plateformes nécessaires pour vous permettre de réaliser votre projet.</p>
-    <p className='tracking-[.10em] '>Notre société de développement d'applications mobiles est là pour vous aider à construire, concevoir et développer votre application mobile. Nous réunissons tous les outils et toutes les plateformes nécessaires pour vous permettre de réaliser votre projet.</p>
-       
-    <br/>
+    <p className='tracking-[.10em] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Scelerisque fermentum dui faucibus in ornare quam viverra. Sapien et ligula ullamcorper malesuada proin. Nunc congue nisi vitae suscipit tellus. Vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur. Tortor at risus viverra adipiscing at in. Donec ultrices tincidunt arcu non sodales neque.</p>
+      <br/>
     
     
     </div>
