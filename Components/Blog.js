@@ -1,7 +1,6 @@
 
 import React from 'react'
 import Post from './Post'
-import { Carousel } from 'react-responsive-carousel';
 
 const Blog = () => {
   return (

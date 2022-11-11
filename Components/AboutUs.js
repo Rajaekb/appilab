@@ -1,6 +1,5 @@
 import React from 'react'
 import work from '../public/img/working.jpg'
-import { FaUnity } from "react-icons/fa";
 
 import Image from 'next/image'
 

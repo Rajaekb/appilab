@@ -10,6 +10,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Team from "../Components/Team";
 import Footer from "../Components/Footer";
 import Creation from "../Components/Creation";
+import Script from 'next/script'
 
 
 
@@ -19,8 +20,8 @@ export default function Home() {
         <Head>
           <title> AppiLab | Developpement Web & Mobile</title>
           <meta name='description' content='Appilab Application ' />
-          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+          <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
+          <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
           <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"></link>
           <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet"></link>
           <link rel="stylesheet" href="https://demos.creative-tim.com/notus-js/assets/vendor/@fortawesome/fontawesome-free/css/all.min.css"></link>
