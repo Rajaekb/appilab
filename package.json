@@ -9,8 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@splinetool/react-spline": "^2.2.3",
-    "@splinetool/runtime": "^0.9.136",
     "classnames": "^2.3.2",
     "next": "12.3.1",
     "next-themes": "^0.2.1",
