@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 function Creation() {
   return (<>
-   <div className='h-screen'>
+   <div className='h-screen md:pt-0 pt-60'>
    <h1 className='text-5xl tracking-[.10em] '>Crée Par <span className='text-purple-500 font-bold'>AppiLAB</span></h1>
       <br/>
       <hr className='bg-lime-400 w-20 h-1 '/>
@@ -18,7 +18,7 @@ function Creation() {
                <Image
                     src={appistadium}
                     alt="appistadium"
-                    className=' absolute rounded-lg bg-cover'
+                    className=' rounded-lg bg-cover'
                 />
             </div>
             

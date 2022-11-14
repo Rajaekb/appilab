@@ -6,21 +6,21 @@ import Image from 'next/image'
 const AboutUs = () => {
   return (
     <>
-    <div  className="flex gap-6 justify-between mt-20 overflow-hidden" id="AboutUs">
+    <div  className="md:flex gap-6 justify-between mt-20 overflow-hidden" id="AboutUs">
       <div className='flex-1'>
       <Image
         src={work}
         alt="Appilab"
-        className='w-20 bg-cover rounded-lg'
+        className='md:w-20 sm:w-10 w-10 h-10 bg-cover rounded-lg'
    
       />
       </div>
       <div className="flex-1 self-center">
-         <h1 className='text-5xl tracking-[.10em]'>Qui Sommes <span className='font-bold text-purple-500'>Nous !</span></h1>
+         <h1 className='md:text-5xl sm:text-4xl text-3xl tracking-[.10em]'>Qui Sommes <span className='font-bold text-purple-500'>Nous !</span></h1>
          <br/>
          <hr className='bg-lime-400 w-20 h-1'/>
          <br/>
-         <h2 className='text-3xl tracking-[.10em]'>Creation des applications mobile personalisés </h2>
+         <h2 className='md:text-3xl sm:text-2xl text-xl tracking-[.10em]'>Creation des applications mobile personalisés </h2>
          <br/>
           <p className='tracking-[.10em] '>Notre société de développement d'applications mobiles est là pour vous aider à construire, concevoir et développer votre application mobile. Nous réunissons tous les outils et toutes les plateformes nécessaires pour vous permettre de réaliser votre projet.</p>
           <p className='tracking-[.10em] '>Notre société de développement d'applications mobiles est là pour vous aider à construire, concevoir et développer votre application mobile. Nous réunissons tous les outils et toutes les plateformes nécessaires pour vous permettre de réaliser votre projet.</p>

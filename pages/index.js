@@ -36,17 +36,25 @@ export default function Home() {
         <Sidebar />
           </div>
           </div>
-        <div className="flex-1">
-         <div className=" px-12">
+        <div className="md:flex-1 ">
+         <div className="md:px-12 mx-auto overflow-hidden max-w-sm md:max-w-[100%]">
             <Homepage/>
             <br/>
             <br/>
             <AboutUs/>
-            <Services/>
-            
-            <Team/>
-            <Creation/>
+            <div>
 
+            <Services/>
+            </div>
+     
+            <div>
+
+            <Creation/>
+            </div>
+            <div>
+
+<Team/>
+</div>
             <Blog/>
             <Contact/>
            </div>

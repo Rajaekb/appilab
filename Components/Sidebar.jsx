@@ -134,7 +134,7 @@ function Sidebar() {
        {/* Mobile Menu*/}
 
     <div className=' w-full fixed top-0 left-0'>
-            <div className='lg:hidden md:hidden bg-white items-center justify-between py-8  px-7'>
+            <div className='lg:hidden md:hidden bg-white items-center justify-between py-8  px-7 z-999'>
   
       
             <div onClick={()=>setMobileNav(!mobileNav)} className='text-3xl absolute right-8 top-4 cursor-pointer md:hidden'>

@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div  className="h-screen pt-24" id="Contact">
+    <div  className="h-screen md:pt-24 sm:pt-36 pt-96" id="Contact">
       <h1 className='text-5xl '>Contacter <span className='text-purple-500'> Nous</span></h1>
       <br/>
     <hr className='bg-lime-400 w-20 h-1'/>
