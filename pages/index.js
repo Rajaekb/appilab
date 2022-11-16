@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           </div>
         <div className="md:flex-1 ">
-         <div className="md:px-12 mx-auto overflow-hidden max-w-sm md:max-w-[100%]">
+         <div className="md:px-12 mx-auto overflow-hidden max-w-md md:max-w-[100%]">
             <Homepage/>
             <br/>
             <br/>
@@ -53,10 +53,13 @@ export default function Home() {
             </div>
             <div>
 
-<Team/>
-</div>
+            <Team/>
+            </div>
             <Blog/>
+            <div className="pt-24 pb-36">
+
             <Contact/>
+            </div>
            </div>
             <div>
 

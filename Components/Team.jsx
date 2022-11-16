@@ -42,55 +42,55 @@ const Team = () => {
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
       </div>
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 place-items-center pt-12 gap-6 px-24">
-      <div className='bg-black rounded-full border-2 border-lime-400 w-52'>
+      <div className="grid  md:grid-cols-4 sm:grid-cols-3 grid-cols-2 place-items-center gap-3 pt-12 md:gap-6 md:px-24">
+      <div className='bg-black rounded-full border-2 border-lime-400 md:w-52 w-32 '>
         <Image src={profile} alt="Appilab" className='rounded-full'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>  
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
       </div>
-      <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 place-items-center pt-12 gap-6 px-24">
-      <div className='bg-black rounded-full border-2 border-lime-400 w-52'>
+      <div className="grid  md:grid-cols-4 sm:grid-cols-3 grid-cols-2 place-items-center gap-3 pt-12 md:gap-6 md:px-24">
+      <div className='bg-black rounded-full border-2 border-lime-400 md:w-52 w-32 '>
         <Image src={profile} alt="Appilab" className='rounded-full'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>  
-      <div className='bg-black  rounded-full border-2 border-lime-400 w-52'>
+      <div className='bg-black  rounded-full border-2 border-lime-400 md:w-52 w-32'>
         <Image src={profile} alt="Appilab" className='rounded-full p-1'/>
       </div>
       </div>

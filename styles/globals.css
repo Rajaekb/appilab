@@ -7,6 +7,9 @@
   
     @apply bg-gray-50 dark:bg-black	;
     font-family: 'Roboto';
+    box-sizing: border-box;
    
   }
+  
 }
+
