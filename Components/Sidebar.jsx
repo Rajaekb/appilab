@@ -133,29 +133,48 @@ function Sidebar() {
    
        {/* Mobile Menu*/}
 
-    <div className=' w-full fixed top-0 left-0'>
-            <div className='lg:hidden md:hidden bg-white items-center justify-between py-8  px-7 z-999'>
-  
+    <div className=' w-full fixed'>
+            <div className='lg:hidden md:hidden sm:hidden flex items-center justify-between pt-4 px-4 z-999'>
+            <div className='cursor-pointer hover:ring-4 hover:ring-gray-200 duration-300 '>
+          {!mounted ? null : ""}
+             {currentTheme == 'dark'? (
+                
+                <button onClick={()=>setTheme('light')}>
+                         
+                         <BsSunFill/>
+                     </button>
+             
+                 ) : (
+                <button onClick={()=>setTheme('dark')}>
+                         <BsMoonFill/>
+                     </button>
+              
+             )
+     
+          }
+        </div>
       
-            <div onClick={()=>setMobileNav(!mobileNav)} className='text-3xl absolute right-8 top-4 cursor-pointer md:hidden'>
+            <div onClick={()=>setMobileNav(!mobileNav)} className='text-3xl  cursor-pointer md:hidden'>
                  <ion-icon  name={mobileNav ? 'close':'menu'}></ion-icon>
             </div>
 
-      <ul className={`lg:hidden md:hidden absolute bg-white text-slate-900  z-[-1] left-0 w-full pl-9 transition-all duration-500 ease-in ${mobileNav ? 'top-0 ':'top-[-490px]'}`}>
+      <ul className={`lg:hidden md:hidden absolute bg-black text-white  z-[-1] left-0 w-full pl-9 transition-all duration-500 ease-in ${mobileNav ? 'top-6 ':'top-[-490px]'}`}>
         {
           menuItems.map((menu)=>(
             <Link to={menu.link} smooth={true} offset={-100} duration={500} >
 
             <li key={menu.label} className='text-xl my-7'>
-              <div className='text-bold hover:text-gray-400 duration-500'>{menu.label}</div>
+              <div className='text-bold cursor-pointer hover:text-gray-400 duration-500'>{menu.label}</div>
             </li>
             </Link>
           ))
         }
+
   
       </ul>
       
       </div>
+      
       
     </div>
 </>
