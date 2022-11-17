@@ -133,9 +133,9 @@ function Sidebar() {
    
        {/* Mobile Menu*/}
 
-    <div className=' w-full  dark:bg-black bg-white fixed top-0 z-[9999]'>
-            <div className='lg:hidden md:hidden sm:hidden flex items-center justify-between pt-4 px-4 z-30'>
-            <div className='cursor-pointer hover:ring-4 hover:ring-gray-200 duration-300 '>
+    <div className=' w-full  dark:bg-black bg-white fixed top-0  z-[9999]'>
+            <div className='lg:hidden md:hidden sm:hidden flex items-center justify-between pt-4 mx-auto px-4 z-30'>
+            <div className='flex-1 cursor-pointer hover:ring-4 hover:ring-gray-200 duration-300 '>
           {!mounted ? null : ""}
              {currentTheme == 'dark'? (
                 
@@ -154,7 +154,7 @@ function Sidebar() {
           }
         </div>
       
-            <div onClick={()=>setMobileNav(!mobileNav)} className='text-3xl cursor-pointer md:hidden z-99999'>
+            <div onClick={()=>setMobileNav(!mobileNav)} className='flex-1 text-3xl cursor-pointer md:hidden  absolute '>
                  <ion-icon  name={mobileNav ? 'close':'menu'}></ion-icon>
             </div>
 
