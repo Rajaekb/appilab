@@ -159,7 +159,7 @@ function Sidebar() {
                 <ion-icon  name={mobileNav ? 'close':'menu'}></ion-icon>
             </div>
 
-      <ul className={`lg:hidden md:hidden absolute bg-white text-black dark:bg-black dark:first-letter:text-white  z-[-1] left-0 w-full pl-9 transition-all duration-500 ease-in ${mobileNav ? 'top-6 ':'top-[-490px]'}`}>
+      <ul className={`lg:hidden md:hidden absolute bg-white text-black dark:bg-black dark:text-white  z-[-1] left-0 w-full pl-9 transition-all duration-500 ease-in ${mobileNav ? 'top-6 ':'top-[-490px]'}`}>
         {
           menuItems.map((menu)=>(
             <Link to={menu.link} smooth={true} offset={-100} duration={500} >
