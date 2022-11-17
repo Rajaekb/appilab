@@ -13,7 +13,7 @@ const Homepage = () => {
       <br/>
       <hr className='bg-lime-400 w-20 h-1'/>
       <br/>
-      <h2 className='text-3xl text-purple-500 tracking-[.10em] font-bold'>Creation des applications mobile personalisés </h2>
+      <h2 className='text-3xl text-purple-500 tracking-[.10em] font-bold'>Développement des applications mobile </h2>
       <br/>
       <p className='tracking-[.10em] w-full'>Notre société de développement d'applications mobiles est là pour vous aider à construire, concevoir et développer votre application mobile. Nous réunissons tous les outils et toutes les plateformes nécessaires pour vous permettre de réaliser votre projet.</p>
       <br/>

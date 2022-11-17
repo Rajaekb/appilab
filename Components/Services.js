@@ -10,7 +10,7 @@ const Services = () => {
     <br/>
     <hr className='bg-lime-400 w-20 h-1'/>
     <br/>
-    <h2 className='text-3xl tracking-[.10em]'>Creation des applications mobile personalisés </h2>
+    <h2 className='text-3xl tracking-[.10em]'>Développement des applications mobile  </h2>
     <br/>
     <p className='tracking-[.10em] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Scelerisque fermentum dui faucibus in or.</p>
       <br/>
