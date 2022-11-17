@@ -19,7 +19,7 @@ const Homepage = () => {
       <br/>
       <div className='flex gap-3'>
         <Link to="Contact" smooth={true} offset={-100} duration={500}>
-      <button className="z-999999 font-bold tracking-[.10em] animate-pulse  p-4 rounded-lg hover:scale-125 ease-in-out duration-300  border border-lime-400 dark:text-white" type="submit">Get In Touch</button>
+      <button className=" font-bold tracking-[.10em] sm:animate-pulse  p-4 rounded-lg hover:scale-125 ease-in-out duration-300  border border-lime-400 dark:text-white" type="submit">Get In Touch</button>
       </Link>
       <Link to="Services" smooth={true} offset={-100} duration={500}>
       <button className="font-bold tracking-[.10em]  p-4 rounded-lg hover:scale-125  ease-in-out duration-300  border border-lime-400 dark:text-white" type="submit">Nos Services</button>
@@ -34,7 +34,7 @@ const Homepage = () => {
       <Image
         src={iphone}
         alt="Appilab"
-        className='absolute rounded-lg rotate-6 bg-cover '
+        className='relative rounded-lg rotate-6 bg-cover '
    
       />
       </div>   

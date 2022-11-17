@@ -133,7 +133,7 @@ function Sidebar() {
    
        {/* Mobile Menu*/}
 
-    <div className=' w-full h-auto dark:bg-black fixed top-0 z-[9999]'>
+    <div className=' w-full  dark:bg-black bg-white fixed top-0 z-[9999]'>
             <div className='lg:hidden md:hidden sm:hidden flex items-center justify-between pt-4 px-4 z-30'>
             <div className='cursor-pointer hover:ring-4 hover:ring-gray-200 duration-300 '>
           {!mounted ? null : ""}

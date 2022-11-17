@@ -30,7 +30,7 @@ export default function Home() {
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
           <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
         <div className='flex '>
-        <div className=" h-screen sticky top-0 rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-lime-400">
+        <div className="sm:h-screen sm:sticky top-0 rounded-lg p-0.5 sm:bg-gradient-to-tr from-purple-500 to-lime-400">
         <div className='h-screen -mb-2 rounded-lg bg-black text-purple-500 z-9999'>
 
         <Sidebar />
