@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           </div>
         <div className="md:flex-1 ">
-         <div className="sm:px-12 px-5 mx-auto overflow-hidden max-w-md md:max-w-[100%]">
+         <div className="sm:px-12 px-5 mx-auto overflow-hidden max-w-md md:max-w-[100%] dark:text-white">
             <Homepage/>
             <br/>
             <br/>
