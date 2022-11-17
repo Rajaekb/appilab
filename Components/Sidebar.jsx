@@ -154,7 +154,7 @@ function Sidebar() {
           }
         </div>
       
-            <div onClick={()=>setMobileNav(!mobileNav)} className='text-3xl  cursor-pointer md:hidden'>
+            <div onClick={()=>setMobileNav(!mobileNav)} className='text-3xl cursor-pointer md:hidden z-99999'>
                  <ion-icon  name={mobileNav ? 'close':'menu'}></ion-icon>
             </div>
 
