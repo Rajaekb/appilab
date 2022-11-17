@@ -3,10 +3,10 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div className='pt-10 md:pt-0 h-screen md:flex justify-between gap-16 items-center' id="Services">
+    <div className='pt-10 md:pt-0 h-screen dark:text-white md:flex justify-between gap-16 items-center' id="Services">
     <div className='md:flex-1 '>
 
-    <h1 className='text-5xl tracking-[.10em]'>Nos <span className='text-purple-500'>Services</span></h1>
+    <h1 className='text-5xl tracking-[.10em] '>Nos <span className='text-purple-500'>Services</span></h1>
     <br/>
     <hr className='bg-lime-400 w-20 h-1'/>
     <br/>
