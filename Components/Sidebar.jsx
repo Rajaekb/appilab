@@ -133,10 +133,10 @@ function Sidebar() {
    
        {/* Mobile Menu*/}
 
-    <div className=' w-full  dark:bg-black bg-white fixed top-0  z-[9999]'>
-            <div className='lg:hidden md:hidden sm:hidden flex items-center justify-between pt-4 mx-auto px-4 z-30'>
-            <div className='flex-1 cursor-pointer hover:ring-4 hover:ring-gray-200 duration-300 '>
-          {!mounted ? null : ""}
+   
+        <div className=' w-full dark:bg-black bg-white fixed top-0 sm:hidden flex items-center justify-between pt-4 mx-auto px-4 z-30'>
+            <div className='flex-1 cursor-pointer  '>
+             {!mounted ? null : ""}
              {currentTheme == 'dark'? (
                 
                 <button onClick={()=>setTheme('light')}>
@@ -154,11 +154,12 @@ function Sidebar() {
           }
         </div>
       
-            <div onClick={()=>setMobileNav(!mobileNav)} className='flex-1 text-3xl cursor-pointer md:hidden  absolute '>
-                 <ion-icon  name={mobileNav ? 'close':'menu'}></ion-icon>
+            <div className='flex-1  text-3xl cursor-pointer  relative text-right'
+                onClick={()=>setMobileNav(!mobileNav)}>
+                <ion-icon  name={mobileNav ? 'close':'menu'}></ion-icon>
             </div>
 
-      <ul className={`lg:hidden md:hidden absolute bg-black text-white  z-[-1] left-0 w-full pl-9 transition-all duration-500 ease-in ${mobileNav ? 'top-6 ':'top-[-490px]'}`}>
+      <ul className={`lg:hidden md:hidden absolute bg-white text-black dark:bg-black dark:first-letter:text-white  z-[-1] left-0 w-full pl-9 transition-all duration-500 ease-in ${mobileNav ? 'top-6 ':'top-[-490px]'}`}>
         {
           menuItems.map((menu)=>(
             <Link to={menu.link} smooth={true} offset={-100} duration={500} >
@@ -176,7 +177,7 @@ function Sidebar() {
       </div>
       
       
-    </div>
+
 </>
        
     
