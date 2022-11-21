@@ -12,8 +12,7 @@ const Post = () => {
       <Image className="object-cover hover:object-top duration-300" src={work} alt="Modern building architecture"/>
     </div>
     <div class="flex-1 p-4">
-    
-      
+          
     <a href="#">
         <h5 class="dark:text-white text-black font-bold md:text-2xl text-xl tracking-tight mb-2">Noteworthy technology</h5>
     </a>

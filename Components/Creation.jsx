@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 function Creation() {
   return (<>
-   <div className='h-screen md:pt-0 '>
+   <div className='h-screen '>
    <h1 className='md:text-5xl sm:text-4xl text-3xl tracking-[.10em]'>Crée Par <span className='text-purple-500 '>AppiLab</span></h1>
       <br/>
       <hr className='bg-lime-400 w-20 h-1 '/>

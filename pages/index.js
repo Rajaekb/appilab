@@ -38,34 +38,38 @@ export default function Home() {
           </div>
         <div className="md:flex-1 ">
          <div className="sm:px-12 px-5 mx-auto overflow-hidden max-w-md md:max-w-[100%] dark:text-white">
-            <Homepage/>
-            <br/>
-            <br/>
-            <AboutUs/>
             <div>
+              <Homepage/>
+            </div>
+           
+            <div>
+              <AboutUs/>
+            </div>
 
-            <Services/>
+            <div className="pb-20">
+               <Services/>
             </div>
      
             <div>
-
-            <Creation/>
+              <Creation/>
             </div>
+
+            <div className="pt-36">
+              <Team/>
+            </div>
+
             <div>
-
-            <Team/>
+               <Blog/>
             </div>
-            <Blog/>
+
             <div className="pt-24 pb-36">
-
-            <Contact/>
+              <Contact/>
             </div>
-           </div>
-            <div>
-
+          </div>
+          <div>
             <Footer/>
-            </div>
-            <div/>
+          </div>
+          <div/>
             <ScrollToTop smooth />
          
     </div>
