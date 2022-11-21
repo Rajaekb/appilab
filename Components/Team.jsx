@@ -8,9 +8,9 @@ const Team = () => {
 
 
   return (
-    <div  className="h-screen sm:pt-32 mt-44 " id="Team">
+    <div  className="h-screen" id="Team">
       
-      <h1 className='text-5xl tracking-[.10em] md:pt-12 pt-56'>Notre <span className='text-purple-500'>Equipe</span></h1>
+      <h1 className='md:text-5xl sm:text-4xl text-3xl tracking-[.10em]'>Notre <span className='text-purple-500'>Equipe</span></h1>
       <br/>
       <hr className='bg-lime-400 w-20 h-1 '/>
       <br/>

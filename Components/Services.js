@@ -6,13 +6,11 @@ const Services = () => {
     <div className='pt-10 md:pt-0 h-screen dark:text-white md:flex justify-between gap-16 items-center' id="Services">
     <div className='md:flex-1 '>
 
-    <h1 className='text-5xl tracking-[.10em] '>Nos <span className='text-purple-500'>Services</span></h1>
+    <h1 className='md:text-5xl sm:text-4xl text-3xl tracking-[.10em] '>Nos <span className='text-purple-500'>Services</span></h1>
     <br/>
     <hr className='bg-lime-400 w-20 h-1'/>
     <br/>
-    <h2 className='text-3xl tracking-[.10em]'>Développement des applications mobile  </h2>
-    <br/>
-    <p className='tracking-[.10em] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Scelerisque fermentum dui faucibus in or.</p>
+       <p className='tracking-[.10em] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Scelerisque fermentum dui faucibus in or.</p>
       <br/>
     
     

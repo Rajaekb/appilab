@@ -3,13 +3,13 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div  className="h-screen md:pt-24 sm:pt-36 pt-96" id="Contact">
-      <h1 className='text-5xl '>Contacter <span className='text-purple-500'> Nous</span></h1>
+    <div  className="h-screen md:pt-24 sm:pt-36 mb-12 " id="Contact">
+      <h1 className='md:text-5xl sm:text-4xl text-3xl'>Contactez <span className='text-purple-500'> Nous</span></h1>
       <br/>
     <hr className='bg-lime-400 w-20 h-1'/>
     <br/>
    
-        <div class="max-w-6xl mx-auto sm:px-6 lg:px-12">
+        <div class="max-w-6xl mx-auto sm:px-6 lg:px-12 border border-lime-400 rounded-lg p-10">
             <div class="mt-2 overflow-hidden">
                 <div class="grid grid-cols-1 md:grid-cols-2">
                     <div class="p-6 mr-2 bg-gray-100 dark:bg-black sm:rounded-lg">
