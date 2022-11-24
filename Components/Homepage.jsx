@@ -19,23 +19,19 @@ const Homepage = () => {
       <br/>
       <div className='flex gap-3'>
         <Link to="Contact" smooth={true} offset={-100} duration={500}>
-      <button className=" font-bold tracking-[.10em] sm:animate-pulse p-4 rounded-lg hover:scale-125 ease-in-out duration-300  border border-lime-400 dark:text-white cursor-pointer z-99999" type="submit">Get In Touch</button>
+      <button className=" font-bold tracking-[.10em] sm:animate-pulse  p-4 rounded-lg hover:scale-125 ease-in-out duration-300  border border-lime-400 dark:text-white cursor-pointer z-99999" type="submit">Get In Touch</button>
       </Link>
       <Link to="Services" smooth={true} offset={-100} duration={500}>
       <button className="font-bold tracking-[.10em]  p-4 rounded-lg hover:scale-125  ease-in-out duration-300  border border-lime-400 dark:text-white" type="submit">Nos Services</button>
       </Link>
       </div>
       </div>
-      <div className=''>
-      <div className='hidden  bg-purple-300 right-40 sm:top-80 rounded-full w-80 h-80 filter blur-3xl opacity-30 animate-blob' ></div>
-      <div className='hidden bg-yellow-600 right-20 sm:top-100 rounded-full w-72 h-72 filter blur-3xl opacity-20 animate-blob'></div>
-      <div className='hidden bg-purple-600 right-52 sm:top-50 rounded-full w-72 h-72 filter blur-3xl opacity-30 animate-blob'></div>
-      </div>  
+            
       <div className='flex-1'>
       <Image
         src={iphone}
         alt="Appilab"
-        className='relative rounded-lg rotate-6 bg-cover'
+        className='relative rounded-lg rotate-6 bg-cover '
    
       />
       </div>   

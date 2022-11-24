@@ -17,7 +17,7 @@ const Contact = () => {
                         <br/>
                         <p className='tracking-[.10em] '>Veuillez Remplir le formulaire de contact , un de nos collaborateur va vous contacter dans les plus bref delais, ou contacter nous sur le numero ci dessous</p>
        
-                        <div class="flex items-center mt-8 text-lime-400">
+                        <div class="flex items-center mt-8 text-purple-500">
                         <ion-icon name="location-outline" size="large"></ion-icon>
                             <div class="ml-4 text-md tracking-wide font-semibold w-40 text-gray-400">
                                 Acme Inc, Street, State,
@@ -25,14 +25,14 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        <div class="flex items-center mt-4 text-lime-400">
+                        <div class="flex items-center mt-4 text-purple-500">
                         <ion-icon name="call-outline" size="large"></ion-icon>
                             <div class="ml-4 text-md tracking-wide text-gray-400 font-semibold w-40">
                                 +44 1234567890
                             </div>
                         </div>
 
-                        <div class="flex items-center mt-2  text-lime-400">
+                        <div class="flex items-center mt-2  text-purple-500">
                         <ion-icon name="mail-outline" size="large"></ion-icon>
 
                             <div class="ml-4 text-md tracking-wide text-gray-400 font-semibold w-40">
@@ -42,7 +42,7 @@ const Contact = () => {
                     </div>
 
                    
-    <form action="https://api.web3forms.com/submit" class="mt-10 ">
+    <form action="#" class="mt-10 ">
  
 
       <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" /> 
