@@ -8,7 +8,7 @@ const Services = () => {
 
     <h1 className='md:text-5xl sm:text-4xl text-3xl tracking-[.10em] '>Nos <span className='text-purple-500'>Services</span></h1>
     <br/>
-    <hr className='bg-lime-400 w-20 h-1'/>
+    <hr className='bg-[#00ff00] w-20 h-1'/>
     <br/>
        <p className='tracking-[.10em] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Aliquam eleifend mi in nulla. Non diam phasellus vestibulum lorem sed risus ultricies tristique nulla. Facilisi nullam vehicula ipsum a arcu cursus vitae congue mauris. Aliquet sagittis id consectetur purus ut faucibus pulvinar elementum. Scelerisque fermentum dui faucibus in or.</p>
       <br/>
@@ -24,25 +24,25 @@ const Services = () => {
     <div className='flex-1 md:items-end md:flex md:flex-col gap-6  place-items-center items-center	 '>
       <div className='flex gap-6 pb-6'>
         <div className='relative'>
-         <div className=" absolute rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-lime-400 md:w-64 md:h-64 w-44 h-44 blur animate-pulse"></div>
-         <div className=' flex-1 border border-lime-400 rounded-lg  p-10 dark:bg-black bg-white drop-shadow-lg hover:scale-125 transition duration-700 ease-in-out md:w-64 md:h-64 w-44 h-44'>Mobile dev</div>
+         <div className=" absolute rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-[#00ff00] md:w-64 md:h-64 w-44 h-44 blur animate-pulse"></div>
+         <div className=' flex-1 border border-[#00ff00] rounded-lg  p-10 dark:bg-black bg-white drop-shadow-lg hover:scale-125 transition duration-700 ease-in-out md:w-64 md:h-64 w-44 h-44'>Mobile dev</div>
 
         </div>
         <div className='relative'>
-        <div className="absolute rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-lime-400 md:w-64 md:h-64 w-44 h-44 blur animate-pulse"></div>
+        <div className="absolute rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-[#00ff00] md:w-64 md:h-64 w-44 h-44 blur animate-pulse"></div>
         <div className=' flex-1 border rounded-lg p-10 dark:bg-black bg-white drop-shadow-lg hover:scale-125 transition duration-700 ease-in-out md:w-64 md:h-64  w-44 h-44'>Web Dev</div></div>
       </div>
       <div className='flex gap-6'>
       <div className='relative'>
-      <div className=" absolute blur rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-lime-400 md:w-64 md:h-64 w-44 h-44 animate-pulse"></div>
+      <div className=" absolute blur rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-[#00ff00] md:w-64 md:h-64 w-44 h-44 animate-pulse"></div>
         <div className='flex-1 border rounded-lg p-10 dark:bg-black bg-white drop-shadow-lg hover:scale-125 transition duration-700 ease-in-out md:w-64 md:h-64 w-44 h-44' >
            Mobile dev
 
       </div>
       </div>
       <div className='relative'>
-        <div className=" absolute blur rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-lime-400 md:w-64 md:h-64 w-44 h-44 animate-pulse"></div>
-        <div className='flex-1 border  border-lime-400 rounded-lg p-10 dark:bg-black bg-white drop-shadow-lg hover:scale-125 transition duration-700 ease-in-out md:w-64 md:h-64 w-44 h-44' > web dev</div>
+        <div className=" absolute blur rounded-lg p-0.5 bg-gradient-to-tr from-purple-500 to-[#00ff00] md:w-64 md:h-64 w-44 h-44 animate-pulse"></div>
+        <div className='flex-1 border  border-[#00ff00] rounded-lg p-10 dark:bg-black bg-white drop-shadow-lg hover:scale-125 transition duration-700 ease-in-out md:w-64 md:h-64 w-44 h-44' > web dev</div>
         </div>
       </div>
     

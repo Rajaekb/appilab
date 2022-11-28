@@ -29,7 +29,7 @@ export default function Home() {
         </Head>
         <Script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></Script>
           <Script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></Script>
-        <div className='flex '>
+        <div className='flex inset-0 gradient-01'>
         <div className="sm:h-screen sm:sticky top-0 rounded-lg p-0.5 sm:bg-gradient-to-tr from-purple-500 to-lime-400">
         <div className='h-screen -mb-2 rounded-lg bg-black text-purple-500 z-9999'>
 

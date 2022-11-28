@@ -71,7 +71,7 @@ function Sidebar() {
              
                     Appi<span className='text-purple-500 '>LAB</span> </div>
             </div>
-            <div className='absolute -inset-1 bg-gradient-to-r from-lime-400 to-purple-600 rounded-full blur brightness-150 py-5 opacity-0 hover:opacity-40 duration-500 left-72 -right-9'></div>
+            <div className='absolute -inset-1 bg-gradient-to-r from-[#00ff00] to-purple-600 rounded-full blur brightness-150 py-5 opacity-0 hover:opacity-40 duration-500 left-72 -right-9'></div>
             <div>
                 <BsChevronDoubleLeft size={30} className={collapseIconClasses} onClick={toggleSidebar}/>
             </div>

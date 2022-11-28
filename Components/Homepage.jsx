@@ -11,7 +11,7 @@ const Homepage = () => {
 
       <h1 className='md:text-7xl md:tracking-[.25em] text-5xl font-bold '>APPILAB</h1>
       <br/>
-      <hr className='bg-lime-400 w-20 h-1'/>
+      <hr className='bg-[#00ff00] w-20 h-1'/>
       <br/>
       <h2 className='text-3xl text-purple-500 tracking-[.10em] font-bold'>Développement des applications mobile </h2>
       <br/>
@@ -19,10 +19,10 @@ const Homepage = () => {
       <br/>
       <div className='flex gap-3'>
         <Link to="Contact" smooth={true} offset={-100} duration={500}>
-      <button className=" font-bold tracking-[.10em] sm:animate-pulse  p-4 rounded-lg hover:scale-125 ease-in-out duration-300  border border-lime-400 dark:text-white cursor-pointer z-99999" type="submit">Get In Touch</button>
+      <button className=" font-bold tracking-[.10em] sm:animate-pulse  p-4 rounded-lg hover:scale-125 ease-in-out duration-300  border border-[#00ff00] dark:text-white cursor-pointer z-99999" type="submit">Get In Touch</button>
       </Link>
       <Link to="Services" smooth={true} offset={-100} duration={500}>
-      <button className="font-bold tracking-[.10em]  p-4 rounded-lg hover:scale-125  ease-in-out duration-300  border border-lime-400 dark:text-white" type="submit">Nos Services</button>
+      <button className="font-bold tracking-[.10em]  p-4 rounded-lg hover:scale-125  ease-in-out duration-300  border border-[#00ff00] dark:text-white" type="submit">Nos Services</button>
       </Link>
       </div>
       </div>
@@ -38,7 +38,7 @@ const Homepage = () => {
 
     </div>  
     <Link to="AboutUs" smooth={true} offset={-100} duration={500}>
-    <div className='-mt-20 flex justify-center items-center animate-bounce cursor-pointer text-lime-400'>
+    <div className='-mt-20 flex justify-center items-center animate-bounce cursor-pointer text-[#00ff00]'>
     <ion-icon name="arrow-down-circle-outline" size="large"></ion-icon>
 
     </div>

@@ -18,7 +18,7 @@ const AboutUs = () => {
       <div className="flex-1 self-center">
          <h1 className='md:text-5xl sm:text-4xl text-3xl tracking-[.10em]'>Qui Sommes <span className='font-bold text-purple-500'>Nous !</span></h1>
          <br/>
-         <hr className='bg-lime-400 w-20 h-1'/>
+         <hr className='bg-[#00ff00] w-20 h-1'/>
          <br/>
          <h2 className='md:text-3xl sm:text-2xl text-xl tracking-[.10em]'>Creation des applications mobile personalisés </h2>
          <br/>

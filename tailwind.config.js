@@ -2,7 +2,7 @@
 
 module.exports = {
  
-
+  mode: 'jit',
   content: [
     "./app/**/*.{js,ts,jsx,tsx}",
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -10,6 +10,7 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
+    
     extend: {
       animation:{
         blob:"blob 4s infinite",
@@ -44,4 +45,9 @@ module.exports = {
     },
   },
   plugins: [],
+  colors:{
+      transparent: 'transparent',
+      current: 'currentColor',
+      'greenlight': '#00ff00',
+  }
 }
