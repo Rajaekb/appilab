@@ -17,7 +17,7 @@ const Post = () => {
         <h5 class="dark:text-white text-black font-bold md:text-2xl text-xl tracking-tight mb-2">Noteworthy technology</h5>
     </a>
     <p class="font-thin p-2 dark:text-white text-gray-700">acquisitions of 2021 so far, in reverse chronological order.</p>
-    <a class="text-black p-2 font-bold hover:bg-lime-400 bg-purple-500 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-3 text-center inline-flex items-center" href="#">
+    <a class="text-black p-2 font-bold hover:bg-[#00ff00] bg-purple-500 focus:ring-4 focus:ring-blue-300 rounded-lg text-sm px-3 text-center inline-flex items-center" href="#">
         Lire la suite
     </a>
 

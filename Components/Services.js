@@ -2,6 +2,14 @@ import React from 'react'
 
 
 const Services = () => {
+const serviceList = [
+  { id : 1, title:"CRM Developpement",excerpt : "lire la suite"},
+  { id : 1, title:"Mobile Developpement",excerpt : "lire la suite"},
+  { id : 1, title:"Web Developpement",excerpt : "lire la suite"},
+  { id : 1, title:"E-com Developpement",excerpt : "lire la suite"},
+
+]
+
   return (
     <div className='pt-10 md:pt-0 h-screen dark:text-white md:flex justify-between gap-16 items-center' id="Services">
     <div className='md:flex-1 '>

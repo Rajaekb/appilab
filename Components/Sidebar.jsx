@@ -18,7 +18,7 @@ import { useTheme } from "next-themes"
         ]
 
 function Sidebar() {
-    const [toggleCollapse,setToggleCollapse] = useState(false)
+    const [toggleCollapse,setToggleCollapse] = useState(true)
     const [mobileNav , setMobileNav] = useState(false)
 
     const { systemTheme , theme, setTheme }= useTheme();

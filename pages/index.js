@@ -1,9 +1,9 @@
 import Head from "next/head";
+import Hero from "../Components/Hero";
 import AboutUs from "../Components/AboutUs";
 import Blog from "../Components/Blog";
 
 import Contact from "../Components/Contact";
-import Homepage from "../Components/Homepage";
 import Services from "../Components/Services";
 import Sidebar from "../Components/Sidebar";
 import ScrollToTop from "react-scroll-to-top";
@@ -39,7 +39,7 @@ export default function Home() {
         <div className="md:flex-1 ">
          <div className="sm:px-12 px-5 mx-auto overflow-hidden max-w-md md:max-w-[100%] dark:text-white">
             <div>
-              <Homepage/>
+              <Hero/>
             </div>
            
             <div>
