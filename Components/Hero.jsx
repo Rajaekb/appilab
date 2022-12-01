@@ -13,7 +13,7 @@ const Hero = () => {
         whileInView="show"
         viewport={{once:false, amount:0.25}}
         >
-    <div className='h-screen md:flex md:justify-between md:relative md:items-center md:mt-10 mt-24 overflow-y-hidden' id="home">
+    <div className='h-screen md:flex md:justify-between md:relative md:items-center md:mt-10 mt-24 overflow-hidden' id="home">
       <div className='flex-1 '>
 
       <motion.h1
